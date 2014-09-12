@@ -2,27 +2,32 @@
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
-*.lib
 
-# Executables
-*.exe
+# Compiled Bins.
+a.out
+
+# Latex
+*.log
+*.aux
+*.nav
 *.out
-*.app
+*.snm
+*.toc
+
+# Backup files
+*~
+.*.sw*
+.backups
+.backup
+
+# svn
+.svn
+
